@@ -7,15 +7,6 @@ o.numWireBufs = 128*2;
 s.boot;
 
 s.doWhenBooted({ |comp_bus = 100|
-
-	// WHAT THIS NEEDS IS A SECOND AND THIRD MELODIC SYNTH TO FOLLOW DIFFERENT PITCH ENVELOPES
-	// Have pitch elements come from a PPar of some kind ... or put TChoose / TRand into pitch array
-
-	// external snr sound needs to occasionally feed into reverb.
-
-	// need a switch for the external snare/hat sound so it's not permanently on.
-
-	// arg to set rate and duration of externel snare hits
 	
 	var xline_start_end;
 
