@@ -1,41 +1,4 @@
 
-/*
-
-1. Introduction
-1.1 tick clock dur 0.25
-1.2 kick decay 8, amp 1
-
-2. Ramp Up
-2.1 build tick clock up to 8 (1,2,4,8)
-2.2 kick decay 0.8, amp 0.55 once tick clock > 2
-2.3 switch to div clock
-
-3. Merger
-3.1 switch to tick clock, rate 8.
-3.2 kick decay 0.55, amp 0.5
-3.3 build tick clock rate 8, 16, 20, 30
-3.4 cycle rate between 20 & 30
-3.5 turn noise on
-3.6 descelerate tick clock 20, 16, 10, 8, 4, 2
-
-4. End
-4.1 tick clock rate 0.25
-4.2 Organ release time 3.5
-4.3 Organ release time 0.25
-*/
-
-
-
-/*
-
-Need to implement this:
-
-g = PdefGui(Pdef(\organ), 3);    // with an envirgui for 3 items
-
-g.close;
-*/
-
-
 (
 
 o = Server.local.options;
